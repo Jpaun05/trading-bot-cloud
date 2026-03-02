@@ -70,11 +70,4 @@ def home():
 
         html += f"<h2>{symbol}</h2>"
         html += f"<p>Total Return: {total_return}%</p>"
-        html += f'<img src="data:image/png;base64,{plot_url}"/>'
-
-    return html
-import os
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
+        html += 
